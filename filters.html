@@ -26,7 +26,7 @@
               class="flex py-5 flex-col space-y-[28px] px-4 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch"
             >
               <div
-                class="card rounded-[40px] p-5 relative"
+                class="card rounded-[40px] p-5"
                 style="box-shadow: 0px 2px 6px 0px #00000040"
               >
                 <div class="flex items-center justify-between">
@@ -150,33 +150,10 @@
                       125
                     </p>
                   </div>
-                </div>
-                <div
-                  class="absolute top-[46px] right-[20px] px-[10px] py-[25px] rounded-[30px] bg-white flex flex-col justify-center"
-                  style="box-shadow: 0px 2px 8px 0px #00000073"
-                >
-                  <a class="flex items-center" href="#">
-                    <img src="src/img/save.png" alt="" />
-                    <p class="font-normal text-[#2c2c2c] text-[11px] pl-[5px]">
-                      Save post
-                    </p>
-                  </a>
-                  <a href="#" class="flex items-center">
-                    <img src="./src/img/repor.png" alt="" />
-                    <p class="font-normal text-[#2c2c2c] text-[11px] pl-[5px]">
-                      Report
-                    </p>
-                  </a>
-                  <a href="#" class="flex items-center">
-                    <img src="./src/img/bell.png" alt="" />
-                    <p class="font-normal text-[#2c2c2c] text-[11px] pl-[5px]">
-                      Be notified about this post
-                    </p>
-                  </a>
                 </div>
               </div>
               <div
-                class="relative card rounded-[40px] p-5 mb-6"
+                class="card rounded-[40px] p-5 mb-6"
                 style="box-shadow: 0px 2px 6px 0px #00000040"
               >
                 <div class="flex items-center justify-between">
@@ -301,29 +278,103 @@
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="px-[18px] pt-[29px]">
+              <h1
+                class="text-[15px] font-medium"
+                style="
+                  background: linear-gradient(
+                    180deg,
+                    #ff6535 0%,
+                    #ff9e48 48.9%,
+                    #ffce58 100%
+                  );
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                "
+              >
+                Filter Posts:
+              </h1>
+              <div class="flex items-center justify-between">
                 <div
-                  class="absolute top-[46px] right-[20px] px-[10px] py-[25px] rounded-[30px] bg-white flex flex-col justify-center"
-                  style="box-shadow: 0px 2px 8px 0px #00000073"
+                  class="flex items-center p-2 rounded-full w-full mr-2"
+                  style="box-shadow: 0px 2px 6px 0px #00000080"
                 >
-                  <a class="flex items-center" href="#">
-                    <img src="src/img/save.png" alt="" />
-                    <p class="font-normal text-[#2c2c2c] text-[11px] pl-[5px]">
-                      Save post
-                    </p>
-                  </a>
-                  <a href="#" class="flex items-center">
-                    <img src="./src/img/repor.png" alt="" />
-                    <p class="font-normal text-[#2c2c2c] text-[11px] pl-[5px]">
-                      Report
-                    </p>
-                  </a>
-                  <a href="#" class="flex items-center">
-                    <img src="./src/img/bell.png" alt="" />
-                    <p class="font-normal text-[#2c2c2c] text-[11px] pl-[5px]">
-                      Be notified about this post
-                    </p>
-                  </a>
+                  <div class="relative mr-[5px]">
+                    <select
+                      class="appearance-none pr-[35px] pl-[15px] py-[4px] bg-no-repeat"
+                    >
+                      <option value="1">Category</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                    <img
+                      src="./src/img/chevron.png"
+                      alt=""
+                      class="absolute top-[10px] right-[15px]"
+                    />
+                  </div>
+                  <div class="relative">
+                    <select
+                      class="appearance-none pr-[35px] pl-[15px] py-[4px] bg-no-repeat"
+                    >
+                      <option value="1">Sub-Category</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                    <img
+                      src="./src/img/chevron.png"
+                      alt=""
+                      class="absolute top-[10px] right-[15px]"
+                    />
+                  </div>
+                  <div class="absolute top-[150px] left-1/4 flex items-center">
+                    <div
+                      style="box-shadow: 0px 2px 8px 0px #000000b2"
+                      class="rounded-full px-2 py-[10px] flex items-center bg-white mr-5"
+                    >
+                      <p
+                        style="
+                          background: linear-gradient(
+                            180deg,
+                            #ff6535 0%,
+                            #ff9e48 48.9%,
+                            #ffce58 100%
+                          );
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+                        "
+                        class="pr-2 text-[15px] font-medium"
+                      >
+                        Lifestyle
+                      </p>
+                      <img src="./src/img/xxx.png" alt="" />
+                    </div>
+                    <div
+                      style="box-shadow: 0px 2px 8px 0px #000000b2"
+                      class="rounded-full px-2 py-[10px] flex items-center bg-white"
+                    >
+                      <p
+                        style="
+                          background: linear-gradient(
+                            180deg,
+                            #ff6535 0%,
+                            #ff9e48 48.9%,
+                            #ffce58 100%
+                          );
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+                        "
+                        class="pr-2 text-[15px] font-medium"
+                      >
+                        Travel
+                      </p>
+                      <img src="./src/img/xxx.png" alt="" />
+                    </div>
+                  </div>
                 </div>
+                <img src="./src/img/check.png" alt="" />
               </div>
             </div>
             <div class="px-4 pt-6 mb-4 sm:mb-0 flex items-center">
@@ -389,21 +440,12 @@
               </div>
             </div>
           </div>
+          <script>
+            const el = document.getElementById("cards");
+            el.scrollTop = el.scrollHeight;
+          </script>
+
           <style>
-            .input-wrap {
-              background: linear-gradient(
-                180deg,
-                #ff6535 0%,
-                #ff9e48 48.9%,
-                #ffce58 100%
-              );
-            }
-
-            .scrollbar-w-2::-webkit-scrollbar {
-              width: 0.25rem;
-              height: 0.25rem;
-            }
-
             .scrollbar-track-blue-lighter::-webkit-scrollbar-track {
               --bg-opacity: 1;
               background-color: #f7fafc;
@@ -419,12 +461,31 @@
             .scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
               border-radius: 0.25rem;
             }
-          </style>
+            select {
+              border-top: 1px solid #ff6535;
+              border-bottom: 1px solid #ffce58;
+              border-radius: 30px;
+              background: linear-gradient(
+                180deg,
+                #ff6535 0%,
+                #ff9e48 48.9%,
+                #ffce58 100%
+              );
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              font-size: 15px;
+              font-weight: 500;
+            }
 
-          <script>
-            const el = document.getElementById("cards");
-            el.scrollTop = el.scrollHeight;
-          </script>
+            .input-wrap {
+              background: linear-gradient(
+                180deg,
+                #ff6535 0%,
+                #ff9e48 48.9%,
+                #ffce58 100%
+              );
+            }
+          </style>
         </div>
       </div>
     </section>
