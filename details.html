@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Platform</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="font-primary">
+    <section>
+      <div>
+        <div
+          class="bg-contain bg-no-repeat w-full h-[280px] sm:mx-auto sm:w-full sm:max-w-md"
+          style="background-image: url('./src/img/background-2.png')"
+        >
+          <div class="flex justify-center items-center pt-[52px]">
+            <img src="./src/img/logo.png" alt="logo" />
+          </div>
+        </div>
+
+        <div class="sm:mx-auto sm:w-full sm:max-w-[480px]">
+          <!-- component -->
+          <div class="mt-[-120px] flex flex-col">
+            <div class="flex flex-col justify-center items-center mb-4">
+              <img src="./src/img/Vector (1).png" alt="" />
+              <h1 class="font-semibold text-2xl text-[#585858]">Name</h1>
+              <p class="text-[#afafaf] text-sm font-normal">Student</p>
+            </div>
+            <div
+              class="flex items-center justify-center px-[15px] mt-4 pb-[30px] shadow-md rounded-b-full"
+            >
+              <a href="#" class="mr-3">
+                <img
+                  src="./src/img/personal details.png"
+                  alt="sign up button"
+                />
+              </a>
+              <a href="#" class="mr-3">
+                <img src="./src/img/wwdswd.png" alt="sign up button" />
+              </a>
+              <a href="#">
+                <img src="/src/img/back.png" alt="" />
+              </a>
+            </div>
+
+            <div
+              class="mt-10 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-6 px-[16px]"
+            >
+              <div class="flex items-center justify-between">
+                <div class="sm:col-span-3 mr-[9px]">
+                  <label
+                    for="first-name"
+                    class="block text-base font-semibold leading-6 text-[#585858] pl-[14px]"
+                    >First name</label
+                  >
+                  <div class="mt-2">
+                    <input
+                      type="text"
+                      name="first-name"
+                      id="first-name"
+                      autocomplete="given-name"
+                      class="block w-full rounded-m border border-[#afafaf] text-[#afafaf] text-sm rounded-full pl-[15px] py-[15px] max-w-[149px]"
+                      placeholder="Anthony"
+                    />
+                  </div>
+                </div>
+
+                <div class="sm:col-span-3">
+                  <label
+                    for="last-name"
+                    class="block text-base font-semibold leading-6 text-[#585858] pl-[14px]"
+                    >Last name</label
+                  >
+                  <div class="mt-2">
+                    <input
+                      type="text"
+                      name="last-name"
+                      id="last-name"
+                      autocomplete="family-name"
+                      class="block w-full rounded-m border border-[#afafaf] text-[#afafaf] text-sm rounded-full pl-[15px] py-[15px]"
+                      placeholder="Hopkins"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="sm:col-span-4">
+                <label
+                  for="email"
+                  class="block text-base font-semibold leading-6 text-[#585858] pl-[14px]"
+                  >Email address</label
+                >
+                <div class="mt-2">
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    class="block w-full rounded-m border border-[#afafaf] text-[#afafaf] text-sm rounded-full pl-[15px] py-[15px]"
+                    placeholder="Hopkins456@gmail.com"
+                  />
+                </div>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <div class="sm:col-span-3">
+                  <label
+                    for="country"
+                    class="block text-base font-semibold leading-6 text-[#585858] pl-[14px]"
+                    >Country</label
+                  >
+                  <div class="mt-2 relative">
+                    <select
+                      id="country"
+                      name="country"
+                      autocomplete="country-name"
+                      class="appearance-none block w-full rounded-m border border-[#afafaf] text-[#afafaf] text-sm rounded-full pl-[15px] py-[15px] pr-[73px]"
+                    >
+                      <option>United states</option>
+                      <option>Canada</option>
+                      <option>Mexico</option>
+                    </select>
+                    <img
+                      src="./src/img/Vectoryy.png"
+                      alt=""
+                      class="absolute top-[20px] right-[15px]"
+                    />
+                  </div>
+                </div>
+                <div class="sm:col-span-3">
+                  <label
+                    for="country"
+                    class="block text-base font-semibold leading-6 text-[#585858] pl-[14px]"
+                    >City</label
+                  >
+                  <div class="mt-2 relative">
+                    <select
+                      id="country"
+                      name="country"
+                      autocomplete="country-name"
+                      class="appearance-none block w-full rounded-m border border-[#afafaf] text-[#afafaf] text-sm rounded-full pl-[15px] py-[15px] pr-[73px]"
+                    >
+                      <option>Chicago</option>
+                      <option>Canada</option>
+                      <option>Mexico</option>
+                    </select>
+                    <img
+                      src="./src/img/Vectoryy.png"
+                      alt=""
+                      class="absolute top-[20px] right-[15px]"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="sm:col-span-4 mb-3">
+                <label
+                  for="email"
+                  class="block text-base font-semibold leading-6 text-[#585858] pl-[14px]"
+                  >LinkedIn profile:</label
+                >
+                <div class="mt-2">
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    class="block w-full rounded-m border border-[#afafaf] text-[#afafaf] text-sm rounded-full pl-[15px] py-[15px]"
+                    placeholder="Oliver Goe"
+                  />
+                </div>
+              </div>
+              <hr
+                class="h-px mb-[25px] mx-[15px] bg-[#E2E2E2] border-0 dark:bg-gray-700"
+              />
+            </div>
+            <div
+              style="
+                background: linear-gradient(
+                  180deg,
+                  #ff6535 0%,
+                  #ff9e48 48.9%,
+                  #ffce58 100%
+                );
+              "
+              class="py-[10px] rounded-full mx-4 mb-6"
+            >
+              <div class="flex items-center justify-between px-[50px]">
+                <img src="./src/img/4.png" alt="" />
+                <img src="./src/img/dis.png" alt="" />
+                <img src="./src/img/2.png" />
+                <img src="./src/img/ab.png" />
+              </div>
+            </div>
+          </div>
+
+          <style>
+            .scrollbar-w-2::-webkit-scrollbar {
+              width: 0.25rem;
+              height: 0.25rem;
+            }
+
+            .scrollbar-track-blue-lighter::-webkit-scrollbar-track {
+              --bg-opacity: 1;
+              background-color: #f7fafc;
+              background-color: rgba(247, 250, 252, var(--bg-opacity));
+            }
+
+            .scrollbar-thumb-blue::-webkit-scrollbar-thumb {
+              --bg-opacity: 1;
+              background-color: #edf2f7;
+              background-color: rgba(237, 242, 247, var(--bg-opacity));
+            }
+
+            .scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
+              border-radius: 0.25rem;
+            }
+          </style>
+
+          <script>
+            const el = document.getElementById("messages");
+            el.scrollTop = el.scrollHeight;
+          </script>
+
+          <style>
+            .input-wrap {
+              background: linear-gradient(
+                180deg,
+                #ff6535 0%,
+                #ff9e48 48.9%,
+                #ffce58 100%
+              );
+            }
+
+            .scrollbar-w-2::-webkit-scrollbar {
+              width: 0.25rem;
+              height: 0.25rem;
+            }
+
+            .scrollbar-track-blue-lighter::-webkit-scrollbar-track {
+              --bg-opacity: 1;
+              background-color: #f7fafc;
+              background-color: rgba(247, 250, 252, var(--bg-opacity));
+            }
+
+            .scrollbar-thumb-blue::-webkit-scrollbar-thumb {
+              --bg-opacity: 1;
+              background-color: #edf2f7;
+              background-color: rgba(237, 242, 247, var(--bg-opacity));
+            }
+
+            .scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
+              border-radius: 0.25rem;
+            }
+          </style>
+
+          <script>
+            const el = document.getElementById("cards");
+            el.scrollTop = el.scrollHeight;
+          </script>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
